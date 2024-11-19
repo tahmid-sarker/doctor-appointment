@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "What is useState and how does it work in React?",
+        "description": "useState is a React Hook that lets you add state variables to functional components. When you call useState, it returns a pair: the current state value and a function that lets you update it. Every time you update the state using the setter function, React re-renders the component to reflect the new state."
+    },
+    {
+        "id": 2,
+        "title": "What is the purpose of useEffect in React?",
+        "description": "useEffect is a React Hook used for handling side effects in functional components. Examples of side effects include data fetching, manual DOM manipulation, or setting up subscriptions. useEffect runs after the component renders, ensuring that side effects are handled separately from the main rendering logic."
+    },
+    {
+        "id": 3,
+        "title": "What is a custom hook in React and when should you use one?",
+        "description": "A custom hook is a JavaScript function that starts with 'use' and can call other hooks inside it. You should create a custom hook when you have reusable logic that needs to be shared across multiple components, helping to keep your components clean and your code more organized."
+    },
+    {
+        "id": 4,
+        "title": "Difference between controlled and uncontrolled components? Which one is better?",
+        "description": "Controlled components are those where form data is handled by React state, while uncontrolled components store their data in the DOM itself. Controlled components give you full control over form data but require more code. Generally, controlled components are preferred in modern React because they allow easier validation and better control over the form's behavior."
+    },
+    {
+        "id": 5,
+        "title": "Tell us something about useFormStatus() (explore and explain)",
+        "description": "useFormStatus is a relatively new React Hook introduced to help track the status of a form submission, especially with server actions. It provides information like whether the form is currently submitting, has an error, or was successful. It is very useful for disabling submit buttons while submitting, showing loading indicators, or handling validation feedback automatically."
+    }
+]
